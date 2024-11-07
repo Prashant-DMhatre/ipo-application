@@ -8,7 +8,7 @@ export default function IPODetails({ ipoData }) {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 <div className="bg-white p-4 rounded-md">
                     <h3 className="text-gray-500">Issue Size</h3>
-                    <p className="font-semibold text-lg">{`${formatAmount(ipoData.issue_start_size)} - 3700Cr`}</p>
+                    <p className="font-semibold text-lg">{`3600 - 3700Cr.`}</p>
                 </div>
                 <div className="bg-white p-4 rounded-md">
                     <h3 className="text-gray-500">Price Range</h3>
