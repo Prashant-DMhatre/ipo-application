@@ -60,17 +60,17 @@ export default function Ipo() {
                 <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500">
                         <thead class="text-xs text-gray-700 bg-gray-50">
-                            <tr className='p-5'>
-                                <th scope="col" class="px-6 py-3 w-1/4">
-                                    Company / Issue&nbsp;Date
+                            <tr className='p-7 text-gray-500'>
+                                <th scope="col" class="px-6 py-4 font-normal w-1/4">
+                                    Company / Issue&nbsp;date
                                 </th>
-                                <th scope="col" class="px-6 py-3 w-1/4 text-center">
+                                <th scope="col" class="px-6 py-4 font-normal w-1/4 text-center">
                                     Issue Size
                                 </th>
-                                <th scope="col" class="px-6 py-3 w-1/4 text-center">
+                                <th scope="col" class="px-6 py-4 font-normal w-1/4 text-center">
                                     Price range
                                 </th>
-                                <th scope="col" class="px-6 py-3 w-1/4 text-center">
+                                <th scope="col" class="px-6 py-4 font-normal w-1/4 text-center">
                                     Min invest/qty
                                 </th>
                             </tr>

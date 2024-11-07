@@ -35,12 +35,12 @@ export default function IPOInfo() {
                         <IPODetails ipoData={ipoData} />
                     </div>
 
-                    <div className="bg-white rounded-xl border p-4">
+                    <div className="bg-white rounded-xl sm:border p-4">
                         <h3 className="font-semibold text-lg mb-4">IPO Timeline</h3>
                         <IPOtimeline />
                     </div>
 
-                    <div className="bg-white rounded-xl border p-4">
+                    <div className="bg-white rounded-xl sm:border p-4">
                         <h3 className="font-semibold text-lg mb-4 block sm:hidden capitalize">{ipoData.name}</h3>
 
                         <h3 className="font-semibold text-lg mb-4 hidden sm:block">About the Company</h3>
