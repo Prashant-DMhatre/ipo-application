@@ -1,5 +1,6 @@
 import React from 'react';
 import TimelineEvent from './timeline-event';
+import { formatAmount, formatDate } from '../helpers';
 
 export default function IPOtimeline() {
     return (
@@ -9,42 +10,42 @@ export default function IPOtimeline() {
                     <TimelineEvent isCompleted={true} isFirstEvent={true} isLastEvent={false} />
                     <div className=" mt-2 sm:text-center flex flex-col ">
                         <div className="text-sm font-bold">{"Bidding Start"}</div>
-                        <div className="text-sm text-gray-500">{"2024-11-10"}</div>
+                        <div className="text-sm text-gray-500">{formatDate("2024-11-10")}</div>
                     </div>
                 </div>
                 <div className='flex gap-4 sm:block'>
                     <TimelineEvent isCompleted={true} isFirstEvent={false} isLastEvent={false} />
                     <div className=" mt-2 sm:text-center flex flex-col ">
                         <div className="text-sm font-bold">{"Bidding End"}</div>
-                        <div className="text-sm text-gray-500">{"2024-11-14"}</div>
+                        <div className="text-sm text-gray-500">{formatDate("2024-11-14")}</div>
                     </div>
                 </div>
                 <div className='flex gap-4 sm:block'>
                     <TimelineEvent isCompleted={true} isFirstEvent={false} isLastEvent={false} />
                     <div className="mt-2 sm:text-center flex flex-col ">
                         <div className="text-sm font-bold">{"Allotment Finalization"}</div>
-                        <div className="text-sm text-gray-500">{"2024-11-10"}</div>
+                        <div className="text-sm text-gray-500">{formatDate("2024-11-10")}</div>
                     </div>
                 </div>
                 <div className='flex gap-4 sm:block'>
                     <TimelineEvent isCompleted={true} isFirstEvent={false} isLastEvent={false} />
                     <div className=" mt-2 sm:text-center flex flex-col ">
                         <div className="text-sm font-bold">{"Refund Initiation"}</div>
-                        <div className="text-sm text-gray-500">{"2024-11-10"}</div>
+                        <div className="text-sm text-gray-500">{formatDate("2024-11-10")}</div>
                     </div>
                 </div>
                 <div className='flex gap-4 sm:block'>
                     <TimelineEvent isCompleted={true} isFirstEvent={false} isLastEvent={false} />
                     <div className=" mt-2 sm:text-center flex flex-col ">
                         <div className="text-sm font-bold">{"Demat Transfer"}</div>
-                        <div className="text-sm text-gray-500">{"2024-11-10"}</div>
+                        <div className="text-sm text-gray-500">{formatDate("2024-11-10")}</div>
                     </div>
                 </div>
                 <div className='flex gap-4 sm:block'>
                     <TimelineEvent isCompleted={true} isFirstEvent={false} isLastEvent={true} />
                     <div className=" mt-2 sm:text-center flex flex-col ">
                         <div className="text-sm font-bold">{"Listing Date"}</div>
-                        <div className="text-sm text-gray-500">{"2024-11-10"}</div>
+                        <div className="text-sm text-gray-500">{formatDate("2024-11-10")}</div>
                     </div>
                 </div>
             </div>
